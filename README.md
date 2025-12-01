@@ -12,7 +12,7 @@ Each project includes:
 - ✔️ Verilog RTL design  
 - ✔️ Testbench  
 - ✔️ Simulation using Icarus Verilog  
-- ✔️ Optional GTKWave waveform files  
+- ✔️ GTKWave waveform files  
 - ✔️ Clear folder structure for easy navigation  
 
 ---
