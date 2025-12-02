@@ -1,3 +1,4 @@
+`timescale 1ns/1ps
 module full_adder_dataflow(
 input a,b,cin,
   output sum,cout
