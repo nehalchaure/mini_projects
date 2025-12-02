@@ -1,6 +1,9 @@
+
+`timescale 1ns/1ps
 module HA_tb;
 reg a,b;
   wire s,c;
+
   HA uut(
   .a(a),
     .b(b),
