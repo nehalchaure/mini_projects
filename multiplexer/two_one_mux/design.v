@@ -1,3 +1,5 @@
+`timescale 1ns/1ps
+
 module two_one_mux(
 input a,b,s,
 output f
