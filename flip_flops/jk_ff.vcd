@@ -1,5 +1,5 @@
 $date
-	Fri Dec 12 10:51:17 2025
+	Sat Dec 13 18:11:59 2025
 $end
 $version
 	Icarus Verilog
@@ -12,10 +12,12 @@ $var wire 1 ! q $end
 $var reg 1 " clk $end
 $var reg 1 # j $end
 $var reg 1 $ k $end
+$var reg 1 % rst $end
 $scope module uut $end
 $var wire 1 " clk $end
 $var wire 1 # j $end
 $var wire 1 $ k $end
+$var wire 1 % rst $end
 $var reg 1 ! q $end
 $upscope $end
 $upscope $end
@@ -25,6 +27,7 @@ $dumpall
 $end
 #0
 $dumpvars
+x%
 0$
 0#
 0"
