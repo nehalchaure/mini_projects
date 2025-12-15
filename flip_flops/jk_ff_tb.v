@@ -8,10 +8,17 @@ initial begin
     $dumpfile("jk_ff.vcd");
     $dumpvars(0, jk_ff_tb);   // your TB module name
 end
-initial begin
-clk=1'b0;
-end
 always #5 clk=~clk;
+
+initial begin
+clk=0;
+rst=0;
+j=0;
+k=0;
+
+#10 rst=1;
+
+end
 
 initial begin
 $monitor("%0t j=%b k=%b q=%b",$time,j,k,q);

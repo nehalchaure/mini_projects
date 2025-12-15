@@ -7,7 +7,7 @@ output reg q
 );
 initial q=0;
 always@(negedge clk or negedge rst)begin
-if(rst)
+if(!rst)
 q<=0;
 else
 case({j,k})
